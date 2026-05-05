@@ -46,7 +46,7 @@ export const Header = () => {
       </div>
 
       <nav
-        className={`z-40 fixed py-6 px-4 top-10 left-1/2 -translate-x-1/2 flex items-center justify-between transition-all duration-300 ease-linear overflow-hidden ${scrolled ? "bg-primary/75 backdrop-blur-lg shadow-md w-[95%] rounded-3xl" : "bg-transparent w-full rounded-none"}`}
+        className={`z-40 fixed py-6 px-4 top-10 left-1/2 -translate-x-1/2 flex items-center justify-between transition-all duration-300 ease-linear overflow-hidden ${scrolled ? "bg-primary/75 backdrop-blur-lg shadow-md w-[90%] rounded-3xl" : "bg-transparent w-full rounded-none"}`}
       >
         <div className="hidden lg:flex items-center justify-center gap-3">
           {Data.socialIcon.map((icon) => {
@@ -87,7 +87,7 @@ export const Header = () => {
           </ul>
 
           {/* Logo centered */}
-          <div className="lg:mx-16 mx-0">
+          <div className="xl:mx-16 lg:mx-12 mx-0">
             <Link to="/home">
               <img
                 src="/images/logo/logo-light.png"
