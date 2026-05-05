@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+/* @custom-variant dark (&:is(.dark *)); */
+
+@tailwind utilities;
+
+@theme {
+    --font-playfair-display: "Playfair Display", serif;
+    --font-jost: "Jost", sans-serif;
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --color-primary-50: #f5f3f1;
+    --color-primary-100: #E8E3DD;
+    --color-primary-200: #ccc0b6;
+    --color-primary-300: #b39f91;
+    --color-primary-400: #8a6f5a;
+    --color-primary-500: #584333;
+    --color-primary-600: #4a382b;
+    --color-primary-700: #3c2d22;
+    --color-primary-800: #2e221a;
+    --color-primary-900: #1f1611;
+
+    --color-gold-50: #fdfaf5;
+    --color-gold-100: #f9f2e6;
+    --color-gold-200: #f2e2c7;
+    --color-gold-300: #E8E3DD;
+    --color-gold-400: #e9c79f;
+    --color-gold-500: #E6C89A;
+    --color-gold-600: #c5a87f;
+    --color-gold-700: #a48865;
+    --color-gold-800: #83684c;
+    --color-gold-900: #624833;
+
+    --color-primary: var(--color-primary-500);
+    --color-gold:var(--color-gold-500);
+
+    --color-gold-rgb:230, 200, 154;
+    --color-primary-rgb:88, 67, 51;
+
+    --shadow-lg: 0px 4px 16px 0px rgba(88, 67, 51, 0.2);
+    --shadow-2xl: 0 25px 50px -12px rgba(88, 67, 51, 0.4);
+
+   --breakpoint-xs: 40rem;
+}
+
+body {
+    font-family: var(--font-jost) !important;
+    background-color: var(--color-gold-300) !important;
+    color: var(--color-primary);
+    overflow-x: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-playfair-display);
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-hover-pulse:hover {
+    animation: pulse512 1.5s infinite;
+}
+
+.swiper.testiSwiper .swiper-pagination .swiper-pagination-bullet-active,
+.swiper.braceletSwiper .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: var(--color-primary);
+}
+
+.swiper.instaImgSwiper .swiper-wrapper,
+.swiper.collectionSwiper .swiper-wrapper,
+.swiper.ringSwiper .swiper-wrapper,
+.swiper.testiSwiper .swiper-wrapper,
+.swiper.braceletSwiper .swiper-wrapper,
+.swiper.arrivalsSwiper .swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+
+.swiper.collectionSwiper .swiper-wrapper{
+    align-items: flex-end !important;
+}
+
+.swiper.collectionSwiper .swiper-slide.swiper-slide-active {
+    transform: scale(1);
+    filter: grayscale(0);
+    transition: transform 0.8s linear, filter 0.8s linear;
+}
+
+.swiper.collectionSwiper .swiper-slide.swiper-slide-active img{
+    box-shadow: 0 -10px 25px rgba(var(--color-gold-rgb),0.3);
+}
+
+.swiper.collectionSwiper .swiper-slide.swiper-slide-prev,
+.swiper.collectionSwiper .swiper-slide.swiper-slide-next{
+    transform: scale(0.8);
+    transform-origin: bottom center;
+    filter: grayscale(0.3);
+    transition: transform 0.8s linear, filter 0.8s linear;
+}
+
+.swiper.collectionSwiper .swiper-slide{
+    transform: scale(0.6);
+    transform-origin: bottom right;
+    filter: grayscale(0.5);
+    transition: transform 0.8s linear, filter 0.8s linear;
+}
+
+.swiper.collectionSwiper .swiper-slide:last-child{
+     transform-origin: bottom left;
+}
+
+.animate-fadePass{
+    animation: pass 2s ease-in-out infinite;
+}
+
+@media (min-width: 1024px) {
+    .swiper.arrivalsSwiper .swiper-slide.swiper-slide-active{
+         transform: scale(1);
+         transition: transform 0.8s linear;
+    }
+
+    .swiper.arrivalsSwiper .swiper-slide.swiper-slide-prev,
+    .swiper.arrivalsSwiper .swiper-slide.swiper-slide-next{
+        transform: scale(0.8);
+        transition: transform 0.8s linear;
+    }
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 var(--color-gold-300);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(232, 227, 221, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(232, 227, 221, 0);
+    }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.7; transform: scale(1);filter: drop-shadow(0 0 2px rgba(var(--color-gold-rgb), 0.4)); }
+  50% { opacity: 1; transform: scale(1.2);filter: drop-shadow(0 0 10px rgba(var(--color-gold-rgb), 0.9)); }
+}
+
+@keyframes rotateClockwise {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotateCounter {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+
+@keyframes pass {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

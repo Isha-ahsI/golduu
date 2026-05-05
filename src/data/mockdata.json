@@ -1,0 +1,717 @@
+
+{
+    "navlink":[
+        {
+            "id":1,
+            "to":"/home",
+            "title":"Home"
+        },
+        {
+            "id":2,
+            "to":"/aboutus",
+            "title":"About Us"
+        },
+        {
+            "id":3,
+            "to":"/collections",
+            "title":"Collections"
+        },
+        {
+            "id":4,
+            "to":"/contactus",
+            "title":"Contact Us"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "src": "/images/categories/cate1.jpg",
+            "title": "Bracelets"
+        },
+        {
+            "id": 2,
+            "src": "/images/categories/cate2.jpg",
+            "title": "Rings"
+        },
+        {
+            "id": 3,
+            "src": "/images/categories/cate3.jpg",
+            "title": "Earrings"
+        },
+        {
+            "id": 4,
+            "src": "/images/categories/cate4.jpg",
+            "title": "Chains"
+        },
+        {
+            "id": 5,
+            "src": "/images/categories/cate5.jpg",
+            "title": "Gold Accessories"
+        },
+        {
+            "id": 6,
+            "src": "/images/categories/cate6.jpg",
+            "title": "Bangles"
+        }
+    ],
+    "bestSeller": [
+        {
+            "id": 1,
+            "src": "/images/collection/product4.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 2,
+            "src": "/images/collection/product5.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "145"
+        },
+        {
+            "id": 3,
+            "src": "/images/collection/product6.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "120"
+        },
+        {
+            "id": 4,
+            "src": "/images/collection/product7.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "100"
+        },
+        {
+            "id": 5,
+            "src": "/images/collection/earring/img1.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "110"
+        },
+        {
+            "id": 6,
+            "src": "/images/collection/earring/img2.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "130"
+        }
+    ],
+    "services":[
+        {
+            "id": 1,
+            "type": "ring",
+            "title": "Perfect Fit & Resizing",
+            "desc": "Enjoy a flawless fit with our precise resizing and adjustment services, ensuring comfort without compromising design."
+        },
+        {
+            "id": 2,
+            "type": "diamond",
+            "title": "Custom Jewelry Design",
+            "desc": "We craft personalized pieces tailored to your style, occasion, and preferences, designed with expert craftsmanship and attention to detail."
+        },
+        {
+            "id": 3,
+            "type": "gift",
+            "title": "Elegant Gift Packaging",
+            "desc": "Make every gift special with our signature packaging, designed to elevate your gifting experience for any occasion."
+        },
+        {
+            "id": 4,
+            "type": "quality",
+            "title": "Quality Certification",
+            "desc": "All our jewelry is crafted with certified materials and undergoes strict quality checks to ensure authenticity and excellence."
+        }
+    ],
+    "trusted":[
+        {
+            "id": 1,
+            "src": "/images/trustlogos/logo4.png",
+            "alt": "carat lane"
+        },
+        {
+            "id": 2,
+            "src": "/images/trustlogos/logo1.png",
+            "alt": "tiffany & co"
+        },
+        {
+            "id": 3,
+            "src": "/images/trustlogos/logo2.png",
+            "alt": "pandora"
+        },
+        {
+            "id": 4,
+            "src": "/images/trustlogos/logo3.png",
+            "alt": "buccellati"
+        }
+    ],
+    "topCollection": [
+        {
+            "id": 1,
+            "src": "/images/collection/product10.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 2,
+            "src": "/images/collection/bracelet/img2.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 3,
+            "src": "/images/collection/earring/img3.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 4,
+            "src": "/images/collection/product13.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 5,
+            "src": "/images/collection/product5.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        },
+        {
+            "id": 6,
+            "src": "/images/collection/earring/img4.jpg",
+            "title": "Minimal Muse Chain",
+            "desc": "14K Yellow Gold & Lab Grown Diamonds",
+            "price": "125"
+        }
+    ],
+    "testiDetails":[
+        {
+            "id":1,
+            "src":"avatar1.jpg",
+            "name":"Amelia S.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.I was genuinely impressed by the craftsmanship and attention to detail in every piece.",
+            "rating": 4.5 
+        },
+        {
+            "id":2,
+            "src":"avatar2.jpg",
+            "name":"Sophia L.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.",
+            "rating": 3.5
+        },
+        {
+            "id":3,
+            "src":"avatar3.jpg",
+            "name":"Amelia V.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.",
+            "rating": 4
+        },
+        {
+            "id":4,
+            "src":"avatar4.jpg",
+            "name":"Lily G.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.",
+            "rating": 3
+        },
+        {
+            "id":5,
+            "src":"avatar1.jpg",
+            "name":"Grace R.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.",
+            "rating": 3.5
+        },
+        {
+            "id":6,
+            "src":"avatar2.jpg",
+            "name":"Victoria T.",
+            "desc":"I was genuinely impressed by the craftsmanship and attention to detail in every piece. The jewelry looks even more beautiful in person and feels incredibly well made. It perfectly complemented my outfit and made the occasion feel even more special.",
+            "rating":2.5
+        }
+    ],
+    "favorites":[
+        {
+            "id":1,
+            "src":"fav1.jpg",
+            "title":"Golden Muse Choker"
+        },
+        {
+            "id":2,
+            "src":"fav2.jpg",
+            "title":"The Modern Heirloom"
+        },
+        {
+            "id":3,
+            "src":"fav3.jpg",
+            "title":"Timeless Gold Strand"
+        },
+        {
+            "id":4,
+            "src":"fav4.jpg",
+            "title":"The Signature Layered Chain"
+        }
+    ],
+    "instaImg":[
+        {
+            "id":1,
+            "src":"insta1.jpg"
+        },
+        {
+            "id":2,
+            "src":"insta2.jpg"
+        },
+        {
+            "id":3,
+            "src":"insta5.jpg"
+        },
+        {
+            "id":4,
+            "src":"insta4.jpg"
+        },
+        {
+            "id":5,
+            "src":"insta3.jpg"
+        },
+        {
+            "id":6,
+            "src":"insta6.jpg"
+        }
+    ],
+    "quickLinks":[
+        {
+            "id":"1",
+            "to":"/home",
+            "title":"Home"
+        },
+        {
+            "id":"2",
+            "to":"/aboutus",
+            "title":"AboutUs"
+        },
+        {
+            "id":"3",
+            "to":"/collections",
+            "title":"Collections"
+        },
+        {
+            "id":"4",
+            "to":"/contactus",
+            "title":"ContactUs"
+        }
+    ],
+    "shopLinks":[
+        {
+            "id":"1",
+            "to":"/",
+            "title":"New Arrival"
+        },
+        {
+            "id":"2",
+            "to":"/",
+            "title":"Best Selling"
+        },
+        {
+            "id":"3",
+            "to":"/",
+            "title":"Top Collection"
+        },
+        {
+            "id":"4",
+            "to":"/",
+            "title":"Favorites"
+        }
+    ],
+    "heroBgImg":[
+        {
+            "id":"1",
+            "src":"/images/herobg2.jpg"
+        },
+        {
+            "id":"2",
+            "src":"/images/instaimgs/insta2.jpg"
+        },
+        {
+            "id":"3",
+            "src":"/images/collection/earring/img2.jpg"
+        },
+        {
+            "id":"4",
+            "src":"/images/instaimgs/insta4.jpg"
+        }
+    ],
+    "avatarsImg":[
+        {
+            "type":"img",
+            "src":"avatar1.jpg"
+        },
+        {
+            "type":"img",
+            "src":"avatar2.jpg"
+        },
+        {
+            "type":"img",
+            "src":"avatar3.jpg"
+        },
+        {
+            "type":"more"
+        }
+    ],
+    "featureInfo":[
+        {
+            "id":1,
+            "src":"feature1.jpg",
+            "icon":"signature",
+            "title":"Signature Craftsmanship",
+            "desc":"Discover the artistry behind our signature designs. From inspiration to final polish, every detail is thoughtfully refined to create timeless pieces."
+        },
+        {
+            "id":2,
+            "src":"feature2.jpg",
+            "icon":"style",
+            "title":"How to Style Your Jewelry",
+            "desc":"Learn simple styling tips to layer, pair, and elevate your jewelry for everyday wear or special occasions."
+        },
+        {
+            "id":3,
+            "src":"feature3.jpg",
+            "icon":"world",
+            "title":"Welcome to Our World",
+            "desc":"Step inside our story and values. Get to know our journey, our inspirations, and what makes our jewelry truly meaningful."
+        }
+    ],
+    "processData":[
+        {
+            "id":1,
+            "num":"01",
+            "title":"Thoughtful Design"
+        },
+        {
+            "id":2,
+            "num":"02",
+            "title":"Premium Materials"
+        },
+        {
+            "id":3,
+            "num":"03",
+            "title":"Handcrafted Perfection"
+        },
+        {
+            "id":4,
+            "num":"04",
+            "title":"Made for You"
+        }
+    ],
+    "collection":[
+        {
+            "id":1,
+            "src":"product6.jpg",
+            "alt":"braclate"
+        },
+        {
+            "id":2,
+            "src":"product3.jpg",
+            "alt":"silver chain"
+        },
+        {
+            "id":3,
+            "src":"earring/img5.jpg",
+            "alt":"gold earring"
+        },
+        {
+            "id":4,
+            "src":"product13.jpg",
+            "alt":"braclate"
+        },
+        {
+            "id":5,
+            "src":"earring/img4.jpg",
+            "alt":"earring"
+        },
+        {
+            "id":6,
+            "src":"product5.jpg",
+            "alt":"chain"
+        },
+        {
+            "id":7,
+            "src":"product4.jpg",
+            "alt":"ring"
+        },
+        {
+            "id":8,
+            "src":"earring/img13.jpg",
+            "alt":"earring"  
+        }
+
+    ],
+    "earring":[
+        {
+            "id":1,
+            "src":"img6.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"125"
+        },
+        {
+            "id":2,
+            "src":"img4.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"150"
+        },
+        {
+            "id":3,
+            "src":"img2.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"100"
+        },
+        {
+            "id":4,
+            "src":"img7.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"200"
+        },
+        {
+            "id":5,
+            "src":"img3.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"175"
+        },
+        {
+            "id":6,
+            "src":"img1.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"150"
+        },
+        {
+            "id":7,
+            "src":"img9.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"175"
+        },
+        {
+            "id":8,
+            "src":"img10.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"170"
+        },
+        {
+            "id":9,
+            "src":"img11.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"150"
+        },
+        {
+            "id":10,
+            "src":"img12.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"145"
+        },
+        {
+            "id":11,
+            "src":"img13.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"140"
+        },
+        {
+            "id":12,
+            "src":"img14.jpg",
+            "title":"Minimal Muse Chain",
+            "desc":"14K Yellow Gold & Lab Grown Diamonds",
+            "price":"135"
+        }
+
+    ],
+    "chain":[
+        {
+            "id":1,
+            "src":"img1.jpg"
+        },
+        {
+            "id":2,
+            "src":"img2.jpg"
+        },
+        {
+            "id":3,
+            "src":"img3.jpg"
+        }
+    ],
+    "rings":[
+        {
+            "id":1,
+            "src":"img1.jpg"
+        },
+        {
+            "id":2,
+            "src":"img2.jpg"
+        },
+        {
+            "id":3,
+            "src":"img3.jpg"
+        },
+        {
+            "id":4,
+            "src":"img4.jpg"
+        },
+        {
+            "id":5,
+            "src":"img5.jpg"
+        },
+        {
+            "id":6,
+            "src":"img6.jpg"
+        },
+        {
+            "id":7,
+            "src":"img7.jpg"
+        }
+    ],
+    "promoCard":[
+        {
+            "id":1,
+            "src":"img1.jpg",
+            "title":"MADE FOR YOUR STORY"
+        },
+        {
+            "id":2,
+            "src":"img2.jpg",
+            "title":"IT’S YOUR MOMENT"
+        }
+    ],
+    "bracelet":[
+        {
+            "id":1,
+            "src":"img1.jpg"
+        },
+        {
+            "id":2,
+            "src":"img2.jpg"
+        },
+        {
+            "id":3,
+            "src":"img3.jpg"
+        },
+        {
+            "id":4,
+            "src":"img4.jpg"
+        },
+        {
+            "id":5,
+            "src":"img5.jpg"
+        }
+    ],
+    "arrivals":[
+        {
+            "id": 1,
+            "src":"bracelet/img3.jpg",
+            "price":"1250"
+        },
+        {
+            "id": 2,
+            "src":"chain/img1.jpg",
+            "price":"1040"
+        },
+        {
+            "id": 3,
+            "src":"earring/img4.jpg",
+            "price":"999"
+        },
+        {
+            "id": 4,
+            "src":"rings/img3.jpg",
+            "price":"1125"
+        },
+        {
+            "id": 5,
+            "src":"earring/img2.jpg",
+            "price":"750"
+        }
+
+    ],
+    "contactInfo":[
+        {
+            "id":1,
+            "icon":"location",
+            "title":"Address",
+            "desc":"214 Crescent Avenue, Suite 305, New York, NY 10013, United States"
+        },
+        {
+            "id":2,
+            "icon":"mail",
+            "title":"Email Us",
+            "desc":"hellotoyou@gmail.com"
+        },
+        {
+            "id":3,
+            "icon":"call",
+            "title":"Call Now",
+            "desc":"+1 800 123 456 789"
+        }
+    ],
+    "userContact":[
+        {
+            "id":1,
+            "icon":"user",
+            "name":"ctaName",
+            "placeholder":"Your Name",
+            "type":"text",
+            "col": "sm:col-span-6"
+        },
+        {
+            "id":2,
+            "icon":"mail",
+            "name":"ctaMail",
+            "placeholder":"Your MailId",
+            "type":"email",
+             "col": "sm:col-span-6"
+        },
+        {
+            "id":3,
+            "icon":"tag",
+            "name":"ctaHelp",
+            "placeholder":"How Can We Help ?",
+            "type":"text",
+            "col": "col-span-12"
+        },
+        {
+            "id":4,
+            "icon":"message",
+            "name":"ctaMsg",
+            "placeholder":"Message...",
+            "type":"textarea",
+            "col": "col-span-12"
+        }
+    ],
+    "socialIcon":[
+        {
+            "id":1,
+            "socialMedia":"facebook",
+            "extraClass":"hover:bg-sky-600"
+        },
+        {
+            "id":2,
+            "socialMedia":"instagram",
+            "extraClass":"hover:bg-linear-65 from-purple-500 to-pink-500"
+        },
+        {
+            "id":3,
+            "socialMedia":"twitter",
+            "extraClass":"hover:bg-sky-400"
+        }
+
+    ]
+}
